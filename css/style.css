@@ -1,0 +1,81 @@
+@font-face{
+	src: url('../fonts/MyriadPro-Regular.ttf');
+	font-family: Myriad Pro;
+}
+
+html, body {
+	width: 100%;
+	height: 100%; 
+	overflow: hidden;
+}
+body{
+	padding: 20px;
+}
+.inline-b{
+	display: inline-block;
+}
+.main-container{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	background: #22B573;
+}
+.section1{
+	margin-bottom: 64px;
+}
+.nav{
+	text-align: center;
+	margin-left: 226px;
+}
+.nav-li{
+	color: white;
+	font-size: 48px;
+	margin:30px 25px;
+	font-family: Myriad Pro;
+}
+.float-left{
+	float:left;
+}
+
+.float-right{
+	float: right;
+}
+
+.clear::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.section1-img{
+	width: 200px;
+	margin-top: 34px;
+	margin-right: 40px;
+}
+.section2{
+	margin: auto 75px;
+}
+
+.box{
+	width: 560px;
+	height: 320px;
+	background-color: #FCEE21;
+	padding: 20px;
+}
+.div-1, .div-2{
+	margin-bottom: 10px;
+}
+
+.div-1-img, .div-2-img{
+	width: 152px;
+}
+.div-1-p1, .div-2-p1{
+	width: 350px;
+	vertical-align: top;
+}
+.div-2-p1{
+margin-left: 10px;
+}
+p{
+	font-family: Myriad Pro;
+}
