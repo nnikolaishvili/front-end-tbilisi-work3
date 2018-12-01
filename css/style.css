@@ -3,6 +3,7 @@
 	font-family: Myriad Pro;
 }
 
+/*body-html*/
 html, body {
 	width: 100%;
 	height: 100%; 
@@ -11,15 +12,38 @@ html, body {
 body{
 	padding: 20px;
 }
+/*body-html*/
+
+/*indipendent ones*/
 .inline-b{
 	display: inline-block;
 }
+
+.float-left{
+	float:left;
+}
+
+.float-right{
+	float: right;
+}
+.clear::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.vertical-align{
+	vertical-align: top;
+}
+/*indipendent ones*/
+
 .main-container{
 	width: 100%;
 	height: 100%;
 	padding: 20px;
 	background: #22B573;
 }
+
+/*section1*/
 .section1{
 	margin-bottom: 64px;
 }
@@ -29,53 +53,52 @@ body{
 }
 .nav-li{
 	color: white;
-	font-size: 48px;
-	margin:30px 25px;
+	font-size: 45px;
+	margin: 30px 25px;
 	font-family: Myriad Pro;
 }
-.float-left{
-	float:left;
-}
-
-.float-right{
-	float: right;
-}
-
-.clear::after{
-	content: "";
-	clear: both;
-	display: block;
-}
-
 .section1-img{
-	width: 200px;
+	width: 190px;
 	margin-top: 34px;
-	margin-right: 40px;
+	margin-right: 60px;
 }
-.section2{
-	margin: auto 75px;
-}
+/*section1*/
 
-.box{
-	width: 560px;
-	height: 320px;
-	background-color: #FCEE21;
-	padding: 20px;
-}
-.div-1, .div-2{
-	margin-bottom: 10px;
-}
-
-.div-1-img, .div-2-img{
-	width: 152px;
-}
-.div-1-p1, .div-2-p1{
-	width: 350px;
-	vertical-align: top;
-}
-.div-2-p1{
-margin-left: 10px;
-}
+/*section2*/
 p{
 	font-family: Myriad Pro;
+	font-size: 14px;
 }
+.section2{
+	margin: auto 95px;
+}
+.box{
+	width: 540px;
+	height: 295px;
+	background-color: #FCEE21;
+	padding: 22px;
+}
+.div1, .div2{
+	margin-bottom: 13px;
+}
+.div1-img, .div2-img{
+	width: 152px;
+}
+.div2-img{
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+.div1-p1{
+	width: 320px;
+}
+.div2-p1{
+	width: 470px;
+	margin-left: 10px;
+}
+.div2-p1, .div2-p2{
+	margin-left: 10px;
+	color: #006837;
+}
+
+/*section2*/
